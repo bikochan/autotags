@@ -28,5 +28,5 @@ then inside your resources or modules `tags` parameter block use the `tags` outp
 
 | Name | Description |
 |------|-------------|
-| tags |  |
+| tags | Generated tags and other defaults |
 

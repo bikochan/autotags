@@ -30,6 +30,7 @@ variable "extra_tags" {
   default     = {}
 }
 
+// Generated tags and other defaults
 output "tags" {
   value = "${merge(local.tags, var.extra_tags)}"
 }
